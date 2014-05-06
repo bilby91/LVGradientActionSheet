@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.version          = "1.0.0"
   s.summary          = "A UIActionSheet much more colourful."
   s.description      = <<-DESC
-                        LVGradientAction sheet it's a custom Action Sheet with a
+                        LVGradientActionSheet it's a custom Action Sheet with a
                         colourful gradient that mimics UIActionSheet API.
                         DESC
 
