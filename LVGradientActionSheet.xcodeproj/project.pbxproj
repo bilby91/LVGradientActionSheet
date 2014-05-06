@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D729456F1918942C00178D4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D729456E1918942C00178D4E /* Foundation.framework */; };
+		D72945AB191894D500178D4E /* LVGradientActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D72945A6191894D500178D4E /* LVGradientActionSheet.m */; };
+		D72945AC191894D500178D4E /* LVGradientActionSheetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D72945A8191894D500178D4E /* LVGradientActionSheetTableViewCell.m */; };
+		D72945AD191894D500178D4E /* LVGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = D72945AA191894D500178D4E /* LVGradientView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D72945691918942C00178D4E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D729456B1918942C00178D4E /* libLVGradientActionSheet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLVGradientActionSheet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D729456E1918942C00178D4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D729457C1918942C00178D4E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D729457F1918942C00178D4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D72945A4191894D500178D4E /* LVGradientActionSheet-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LVGradientActionSheet-Prefix.pch"; sourceTree = "<group>"; };
+		D72945A5191894D500178D4E /* LVGradientActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVGradientActionSheet.h; sourceTree = "<group>"; };
+		D72945A6191894D500178D4E /* LVGradientActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVGradientActionSheet.m; sourceTree = "<group>"; };
+		D72945A7191894D500178D4E /* LVGradientActionSheetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVGradientActionSheetTableViewCell.h; sourceTree = "<group>"; };
+		D72945A8191894D500178D4E /* LVGradientActionSheetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVGradientActionSheetTableViewCell.m; sourceTree = "<group>"; };
+		D72945A9191894D500178D4E /* LVGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVGradientView.h; sourceTree = "<group>"; };
+		D72945AA191894D500178D4E /* LVGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVGradientView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D72945681918942C00178D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D729456F1918942C00178D4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D72945621918942C00178D4E = {
+			isa = PBXGroup;
+			children = (
+				D72945A1191894D500178D4E /* Classes */,
+				D729456D1918942C00178D4E /* Frameworks */,
+				D729456C1918942C00178D4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D729456C1918942C00178D4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D729456B1918942C00178D4E /* libLVGradientActionSheet.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D729456D1918942C00178D4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D729456E1918942C00178D4E /* Foundation.framework */,
+				D729457C1918942C00178D4E /* XCTest.framework */,
+				D729457F1918942C00178D4E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D72945A1191894D500178D4E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D72945A2191894D500178D4E /* ios */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D72945A2191894D500178D4E /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				D72945A4191894D500178D4E /* LVGradientActionSheet-Prefix.pch */,
+				D72945A5191894D500178D4E /* LVGradientActionSheet.h */,
+				D72945A6191894D500178D4E /* LVGradientActionSheet.m */,
+				D72945A7191894D500178D4E /* LVGradientActionSheetTableViewCell.h */,
+				D72945A8191894D500178D4E /* LVGradientActionSheetTableViewCell.m */,
+				D72945A9191894D500178D4E /* LVGradientView.h */,
+				D72945AA191894D500178D4E /* LVGradientView.m */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D729456A1918942C00178D4E /* LVGradientActionSheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D729458E1918942C00178D4E /* Build configuration list for PBXNativeTarget "LVGradientActionSheet" */;
+			buildPhases = (
+				D72945671918942C00178D4E /* Sources */,
+				D72945681918942C00178D4E /* Frameworks */,
+				D72945691918942C00178D4E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LVGradientActionSheet;
+			productName = LVGradientActionSheet;
+			productReference = D729456B1918942C00178D4E /* libLVGradientActionSheet.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D72945631918942C00178D4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = D72945661918942C00178D4E /* Build configuration list for PBXProject "LVGradientActionSheet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D72945621918942C00178D4E;
+			productRefGroup = D729456C1918942C00178D4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D729456A1918942C00178D4E /* LVGradientActionSheet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D72945671918942C00178D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72945AB191894D500178D4E /* LVGradientActionSheet.m in Sources */,
+				D72945AD191894D500178D4E /* LVGradientView.m in Sources */,
+				D72945AC191894D500178D4E /* LVGradientActionSheetTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D729458C1918942C00178D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D729458D1918942C00178D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D729458F1918942C00178D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LVGradientActionSheet.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Classes/ios/LVGradientActionSheet-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D72945901918942C00178D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LVGradientActionSheet.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Classes/ios/LVGradientActionSheet-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D72945661918942C00178D4E /* Build configuration list for PBXProject "LVGradientActionSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D729458C1918942C00178D4E /* Debug */,
+				D729458D1918942C00178D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D729458E1918942C00178D4E /* Build configuration list for PBXNativeTarget "LVGradientActionSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D729458F1918942C00178D4E /* Debug */,
+				D72945901918942C00178D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D72945631918942C00178D4E /* Project object */;
+}

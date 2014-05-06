@@ -19,3 +19,7 @@ DerivedData
 *.hmap
 *.ipa
 
+
+# Cocoapods
+Pods
+

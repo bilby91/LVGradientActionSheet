@@ -1,7 +1,1 @@
-pod "LVGradientActionSheet", :path => "../"
-
-target "Demo" do
-end
-
-target "DemoTests" do
-end
+pod "LVGradientActionSheet", :path => "../LVGradientActionSheet.podspec"

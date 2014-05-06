@@ -1,0 +1,14 @@
+PODS:
+  - LVGradientActionSheet (1.0.0)
+
+DEPENDENCIES:
+  - LVGradientActionSheet (from `../LVGradientActionSheet.podspec`)
+
+EXTERNAL SOURCES:
+  LVGradientActionSheet:
+    :path: ../LVGradientActionSheet.podspec
+
+SPEC CHECKSUMS:
+  LVGradientActionSheet: a6c70d90ed0bbd740c3c3636dbaaeda1404ad336
+
+COCOAPODS: 0.32.1

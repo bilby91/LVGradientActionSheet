@@ -6,32 +6,25 @@
 #
 Pod::Spec.new do |s|
   s.name             = "LVGradientActionSheet"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of LVGradientActionSheet."
+  s.version          = "1.0.0"
+  s.summary          = "A UIActionSheet much more colourful."
   s.description      = <<-DESC
-                       An optional longer description of LVGradientActionSheet
+                        LVGradientAction sheet it's a custom Action Sheet with a
+                        colourful gradient that mimics UIActionSheet API.
+                        DESC
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "http://EXAMPLE/NAME"
-  s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/bilby91/LVGradientActionSheet"
   s.license          = 'MIT'
   s.author           = { "Martin F" => "me@bilby91.com" }
-  s.source           = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/EXAMPLE'
+  s.source           = { :git => "https://github.com/bilby91/LVGradientActionSheet.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/bilby91'
 
-  # s.platform     = :ios, '5.0'
-  # s.ios.deployment_target = '5.0'
-  # s.osx.deployment_target = '10.7'
+  s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Classes'
-  s.resources = 'Assets/*.png'
-
+  s.ios.source_files = 'Classes/ios/*.{h,m}'
   s.ios.exclude_files = 'Classes/osx'
-  s.osx.exclude_files = 'Classes/ios'
-  # s.public_header_files = 'Classes/**/*.h'
-  # s.frameworks = 'SomeFramework', 'AnotherFramework'
-  # s.dependency 'JSONKit', '~> 1.4'
+
+  s.frameworks = 'UIKit'
+
 end
