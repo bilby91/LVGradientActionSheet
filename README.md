@@ -2,9 +2,9 @@
 
 [![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)]()
 [![Version](http://cocoapod-badges.herokuapp.com/v/LVGradientActionSheet/badge.png)](http://cocoadocs.org/docsets/LVGradientActionSheet)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/LVGradientActionSheet/badge.png)](http://cocoadocs.org/docsets/LVGradientActionSheet)
+[![Platform](http://cocoapod-badges.herokuapp.com/p/LVGradientActionSheet/badge.png)](http://cocoadocs.org/docsets/LVGradientActionSheet) [![Build Status](https://travis-ci.org/bilby91/LVGradientActionSheet.svg)](https://travis-ci.org/bilby91/LVGradientActionSheet)
 
-`LVGradientActionSheet` sheet it's a custom Action Sheet with a colourful gradient that mimics UIActionSheet API.
+`LVGradientActionSheet` it's a custom Action Sheet with a colourful gradient that mimics UIActionSheet API.
 
 ![Blue](https://github.com/bilby91/LVGradientActionSheet/blob/master/blue-sample.gif?raw=true)
 ![Red](https://github.com/bilby91/LVGradientActionSheet/blob/master/red-sample.gif?raw=true)
