@@ -1,0 +1,7 @@
+language: objective-c
+before_script:
+    - export LANG=en_US.UTF-8
+before_install:
+    - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+
+xcode_project: LVGradientActionSheet.xcodeproj
