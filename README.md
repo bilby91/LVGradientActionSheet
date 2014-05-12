@@ -1,5 +1,6 @@
 # LVGradientActionSheet
 
+[![Twitter](https://img.shields.io/badge/contact-@bilby91-green.svg)](http://twitter.com/bilby91)
 [![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)]()
 [![Version](http://cocoapod-badges.herokuapp.com/v/LVGradientActionSheet/badge.png)](http://cocoadocs.org/docsets/LVGradientActionSheet)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/LVGradientActionSheet/badge.png)](http://cocoadocs.org/docsets/LVGradientActionSheet) [![Build Status](https://travis-ci.org/bilby91/LVGradientActionSheet.svg)](https://travis-ci.org/bilby91/LVGradientActionSheet)
